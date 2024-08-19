@@ -450,21 +450,19 @@ input:focus,
   padding-right: 135px;
 }
 .footer__form {
+  display: flex;
+  gap: 0;
+  flex-basis: 5px;
   position: relative;
   /* display: grid;
   grid-template-columns: repeat(3, 1fr); */
-}
-
-.text {
-  position: absolute;
-  bottom: 50px;
 }
 
 .form__name {
   border: 2px solid #616161;
   background-color: transparent;
   padding: 10px 20px 10px 15px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   margin-bottom: 25px;
 }
 
@@ -472,7 +470,7 @@ input:focus,
   border: 2px solid #616161;
   background-color: transparent;
   padding: 10px 20px 10px 15px;
-  margin-right: 20px;
+  /* /* margin-right: 20px; */
   margin-bottom: 25px;
 }
 
@@ -480,26 +478,36 @@ input:focus,
   border: 2px solid #616161;
   background-color: transparent;
   padding: 10px 20px 10px 15px;
-  margin-right: 20px;
-  margin-bottom: 25px;
+  /* margin-right: 20px;
+  margin-bottom: 25px; */
 }
 
 .form__company {
   border: 2px solid #616161;
   background-color: transparent;
   padding: 10px 20px 10px 15px;
-  margin-right: 20px;
-  margin-bottom: 25px;
+  /* margin-right: 20px;
+  margin-bottom: 25px; */
 }
 
 .form__text {
   border: 2px solid #616161;
   background-color: transparent;
-  padding: 10px 20px 75px 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 75px;
+  /* width: 220px; */
   /* width: 300px; */
-  width: 220px;
-  margin-right: 5px;
-  margin-bottom: 25px;
+  /*  margin-right: 5px; */
+  margin-bottom: 55px;
+}
+
+.footer__alert {
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  gap: 0 75px;
+  justify-content: space-between;
 }
 
 .footer__form-text {
@@ -523,7 +531,7 @@ input:focus,
   justify-content: space-between;
   margin-top: 80px;
   padding-top: 30px;
-  max-width: 1010px;
+  /* max-width: 1010px; */
   width: 100%;
 }
 
@@ -612,6 +620,12 @@ input:focus,
   width: 330px;
 }
 
+@media (max-width: 1290px) {
+  .footer__alert {
+    gap: 0 70px;
+  }
+}
+
 @media (max-width: 1250px) {
   .nav__list-items {
     padding: 40px 20px;
@@ -651,11 +665,8 @@ input:focus,
   .form__text {
     width: 200px;
   }
-  .footer .container {
-    margin: 0 200px;
-  }
-  .footer__form-btn {
-    margin-left: 60px;
+  .footer__alert {
+    gap: 0 20px;
   }
 }
 
@@ -735,7 +746,7 @@ input:focus,
     margin-left: 60px;
   }
   .footer__bottom {
-    width: 120%;
+    /* width: 120%; */
     /* margin-left: -60px; */
     transform: translateX(-50px);
     margin-bottom: 20px;

@@ -476,17 +476,27 @@
               </ul>
             </div>
             <form action="" class="footer__form">
-              <input type="text" placeholder="Имя" class="form__name" />
-              <input type="text" placeholder="Компания" class="form__company" />
-              <input type="tel" placeholder="Телефон" class="form__tel" />
-              <input type="email" placeholder="E-mail" class="form__email" />
+              <div>
+                <input type="text" placeholder="Имя" class="form__name" />
+                <input
+                  type="text"
+                  placeholder="Компания"
+                  class="form__company"
+                />
+              </div>
+              <div>
+                <input type="tel" placeholder="Телефон" class="form__tel" />
+                <input type="email" placeholder="E-mail" class="form__email" />
+              </div>
 
-              <input
+              <label for="text"></label>
+              <textarea
+                id="text"
                 type="text"
                 placeholder="Сообщение"
                 class="form__text text"
-              />
-              <div style="display: flex; justify-content: space-between">
+              ></textarea>
+              <div class="footer__alert">
                 <p class="footer__form-text">
                   * Ваши данные не будут переданы третьим лицам, 100%
                   вероятность. Конфиденциальность мы гарантируем, и защищаем
