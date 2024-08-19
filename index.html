@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans Condensed:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__inner">
+        <div>
+          <button id="openPopup" class="open-btn">
+            <div class="menu-btn__inner">
+              <div class="line-1"></div>
+              <div class="line-2"></div>
+              <div class="line-3"></div>
+            </div>
+          </button>
+
+          <div id="sidebarPopup" class="sidebar">
+            <div class="sidebar-content">
+              <span class="close">&times;</span>
+              <nav class="nav__list">
+                <ul class="header__nav-list">
+                  <li class="nav__list-items"><a href="">Главная</a></li>
+                  <li class="nav__list-items"><a href="">О Театре</a></li>
+                  <li class="nav__list-items"><a href="">Наши поставки</a></li>
+                  <li class="nav__list-items">
+                    <a href="">Партнеры Театра</a>
+                  </li>
+                  <li class="nav__list-items"><a href="">Контакт</a></li>
+                  <li class="nav__list-items">
+                    <a href="#" class="nav-link">+7 795 123-45-67</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__social">
+                <div class="header__social-inner">
+                  <h3 class="header__social-title">контактная информация</h3>
+                  <img src="./img/nav-line.svg" alt="" class="line" />
+                  <ul class="header__social-list">
+                    <li class="header__social-item">
+                      <a href="" class="header__social-link"
+                        ><img src="./img/instagram.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="header__social-item">
+                      <a href="" class="header__social-link"
+                        ><img src="./img/facebook.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="header__social-item chan">
+                      <a href="" class="header__social-link"
+                        ><img src="./img/WK.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="header__social-item chan">
+                      <a href="" class="header__social-link"
+                        ><img src="./img/youtube.svg" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <nav class="nav__list menu__nav">
+            <ul class="header__nav-list">
+              <li class="nav__list-items">
+                <a href="">Главная</a>
+              </li>
+              <li class="nav__list-items"><a href="">О Театре</a></li>
+              <li class="nav__list-items">
+                <a href="">Наши поставки</a>
+              </li>
+              <li class="nav__list-items">
+                <a href="">Партнеры Театра</a>
+              </li>
+              <li class="nav__list-items"><a href="">Контакт</a></li>
+              <li class="nav__list-items">
+                <a href="#" class="nav-link">+7 795 123-45-67</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__main">
+          <div class="header__main-inner">
+            <div class="header__info">
+              <h3 class="header__main-title">Большой театр</h3>
+              <p class="header__main-text">
+                Большо́й теа́тр — петербургский театр, существовавший в 1784—1886
+                годах, с 1886 года — Петербургская консерватория. Первое
+                постоянное в Санкт-Петербурге, крупнейшее в России и одно из
+                крупнейших театральных зданий в Европе XVIII.
+              </p>
+              <div class="header__main-btn">
+                <a href="#" class="btn"><button class="btn-1">АФИША</button></a>
+              </div>
+            </div>
+            <div class="header__slider">
+              <div class="header__slider-item">
+                <img src="./img/slider.jpg" alt="" class="slider-img" />
+              </div>
+              <div class="header__slider-item">
+                <img src="./img/slider.jpg" alt="" class="slider-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__social menu__social">
+          <div class="header__social-inner">
+            <h3 class="header__social-title">контактная информация</h3>
+            <img src="./img/nav-line.svg" alt="" class="line" />
+            <ul class="header__social-list">
+              <li class="header__social-item">
+                <a href="" class="header__social-link"
+                  ><img src="./img/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li class="header__social-item">
+                <a href="" class="header__social-link"
+                  ><img src="./img/facebook.svg" alt=""
+                /></a>
+              </li>
+              <li class="header__social-item chan">
+                <a href="" class="header__social-link"
+                  ><img src="./img/WK.svg" alt=""
+                /></a>
+              </li>
+              <li class="header__social-item chan">
+                <a href="" class="header__social-link"
+                  ><img src="./img/youtube.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <h2 class="about__title"><span>О </span>ТЕАТРЕ</h2>
+            <div class="about__content">
+              <div class="about__content-start">
+                <p class="about__content-title">Самый лучший театр СПБ</p>
+                <p class="about__content-text">
+                  Как свидетельствуют архивные документы, первое каменное здание
+                  Большого театра начали возводить в 1775 году по проекту
+                  Антонио Ринальди. В дальнейшем, после того как Ринальди упал с
+                  лесов и не мог лично наблюдать за ходом работ, Екатерина II
+                  поручила немецкому театральному декоратору и архитектору
+                  Людвигу Филиппу Тишбейну создать новый проект театра, который
+                  и был воплощён архитекторами Ф. В. фон Бауром и М. А.
+                  Деденёвым. Открытие его состоялось в 1783 году, хотя,
+                  основываясь на других свидетельствах, годом открытия можно
+                  считать 1784 год.
+                </p>
+              </div>
+              <div class="about__info">
+                <div>
+                  <p class="about__info-title">немного о цифрах</p>
+                  <img src="./img/sofa.svg" alt="" class="sofa" />
+                  <p class="about__info-text">
+                    <span>1600</span> посадочный мест
+                  </p>
+                </div>
+                <div class="window">
+                  <img src="./img/window.svg" alt="" />
+                  <p class="about__info-text"><span>350</span> лет истории</p>
+                </div>
+              </div>
+              <div>
+                <img src="./img/about-img.png" alt="" class="img-about" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div>
+          <h2 class="slider__title"><span>наши</span> постановки</h2>
+        </div>
+        <div class="slider__inner">
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">ОСКАР 2020</h3>
+            <div class="loop">
+              <img src="./img/slider-1.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+              <p class="slider__slider-data">сентябрь 2020</p>
+            </div>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">золотой грамофон</h3>
+            <div class="loop">
+              <img src="./img/slider-2.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">июль 2020</p>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">щелкунчик</h3>
+            <div class="loop">
+              <img src="./img/slider-3.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">май 2020</p>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">ОСКАР 2020</h3>
+            <div class="loop">
+              <img src="./img/slider-4.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">сентябрь 2020</p>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">ОСКАР 2020</h3>
+            <div class="loop">
+              <img src="./img/slider-1.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">сентябрь 2020</p>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">ОСКАР 2020</h3>
+            <div class="loop">
+              <img src="./img/slider-2.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">сентябрь 2020</p>
+          </div>
+          <div class="slider__slider">
+            <h3 class="slider__slider-date">щелкунчик</h3>
+            <div class="loop">
+              <img src="./img/slider-3.jpg" alt="" class="img-1" />
+              <button class="loop__btn">
+                <img src="./img/loop.svg" alt="" />
+              </button>
+            </div>
+            <p class="slider__slider-data">май 2020</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <div class="contain__img">
+            <img src="./img/Rectangle 28.png" alt="" class="sponsor__img" />
+
+            <div class="contain">
+              <div>
+                <ul class="info__years">
+                  <li class="years">2018</li>
+                  <li class="years">2019</li>
+                  <li class="years">2020</li>
+                </ul>
+              </div>
+
+              <div class="info__intr">
+                <ul class="info__intr-star">
+                  <li class="info__intr-star__item">
+                    <img src="./img/star.svg" alt="" />
+                  </li>
+                  <li class="info__intr-star__item">
+                    <img src="./img/star.svg" alt="" />
+                  </li>
+                  <li class="info__intr-star__item">
+                    <img src="./img/star.svg" alt="" />
+                  </li>
+                  <li class="info__intr-star__item">
+                    <img src="./img/star.svg" alt="" />
+                  </li>
+                  <li class="info__intr-star__item">
+                    <img src="./img/star.svg" alt="" />
+                  </li>
+                </ul>
+                <p class="info__int-text">
+                  Лучший театр <br />по мнению театральных<br />
+                  критиков Парижа
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sponsor">
+        <div class="container">
+          <h2 class="sponsor__title"><span>партнеры</span> театра</h2>
+          <div class="sponsor__slider-main">
+            <div class="sponsor__slider">
+              <div class="sponsor__slider-inner">
+                <ul class="sponsor__slider-list">
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="sponsor__slider-inner">
+                <ul class="sponsor__slider-list">
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img src="./img/sponsor-img.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div class="sponsor__slider-inner">
+                <ul class="sponsor__slider-list">
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider.jpg"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider-1.jpg"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider-2.webp"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider-3.webp"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider-3.webp"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider-3.webp"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider.jpg"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                  <li class="sponsor__slider-items">
+                    <img
+                      src="./img/sponsor-slider.jpg"
+                      alt=""
+                      style="width: 150px"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h2 class="footer__title"><span>стать</span> меценатом</h2>
+          <div class="footer__inner-content">
+            <div class="footer__contacts">
+              <ul class="footer__contacts-list">
+                <li class="footer__contacts-items">
+                  <a href="tel:+78121234555" class="footer__contacts-phone"
+                    >+7 (812) 123-45-55</a
+                  >
+                </li>
+                <li class="footer__contacts-items">
+                  <a
+                    href="tel:+78121234566"
+                    class="footer__contacts-phone phone"
+                    >+7 (812) 123-45-66</a
+                  >
+                </li>
+                <li class="footer__contacts-items">
+                  <a
+                    href="mailto:info@theater.ru"
+                    class="footer__contacts-email"
+                    >info@theater.ru</a
+                  >
+                </li>
+                <li class="footer__contacts-items adress">
+                  г. санкт-петербург, невский 140
+                </li>
+              </ul>
+            </div>
+            <form action="" class="footer__form">
+              <input type="text" placeholder="Имя" class="form__name" />
+              <input type="text" placeholder="Компания" class="form__company" />
+              <input type="tel" placeholder="Телефон" class="form__tel" />
+              <input type="email" placeholder="E-mail" class="form__email" />
+
+              <input
+                type="text"
+                placeholder="Сообщение"
+                class="form__text text"
+              />
+              <div style="display: flex; justify-content: space-between">
+                <p class="footer__form-text">
+                  * Ваши данные не будут переданы третьим лицам, 100%
+                  вероятность. Конфиденциальность мы гарантируем, и защищаем
+                  персональные данные согласно законку ФЗ-52.
+                </p>
+                <button class="footer__form-btn">Отправить</button>
+              </div>
+            </form>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__bottom-copyright">
+              (с) Все права защищены. Большой театр. 2020
+            </p>
+            <div class="footer__bottom-author">Разработано d-e-n.ru</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
