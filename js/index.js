@@ -43,9 +43,10 @@ $(document).ready(function () {
   $(".header__slider").slick({
     infinite: true,
     prevArrow:
-      '<img class="slider-arrows slider-arrows__left" src="./img/arrow-left.svg" alt="" />',
+      '<button class="prev-btn"><img class="slider-arrows slider-arrows__left" src="./img/arrow-left.svg" alt="" />ПРЕД</button>',
+
     nextArrow:
-      '<img  class="slider-arrows slider-arrows__right"  src="./img/arrow-right.svg" alt="" />',
+      '<button class="next-btn"><img  class="slider-arrows slider-arrows__right"  src="./img/arrow-right.svg" alt="" />СЛЕД</button>',
   });
 
   $(".slider__inner").slick({
@@ -125,8 +126,8 @@ $(document).ready(function () {
     arrows: false,
     responsive: [
       {
-        breakpoint: 992,
-        settings: {},
+        breakpoint: 768,
+        settings: { slidesToShow: 0.9, centerMode: false },
       },
     ],
 
