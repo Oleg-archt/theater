@@ -85,31 +85,41 @@ $(document).ready(function () {
 
   let zoomed = null;
 
-  // Handle click event on images
-  $(".slider__inner").on("click", "img", function (event) {
-    event.stopPropagation(); // Prevent the click event from propagating to the document
+  // // Get the modal and image elements
+  // var modal = document.getElementById("imageModal");
+  // var modalImg = document.getElementById("modalImage");
+  // var closeBtn = document.getElementsByClassName("close")[0];
 
-    if (zoomed) {
-      // If an image is already zoomed, remove the zoom
-      zoomed.removeClass("zoomed");
-    }
+  // // Add click event to images
+  // document.querySelectorAll(".slider-image").forEach(function (img) {
+  //   img.addEventListener("click", function () {
+  //     modal.style.display = "block";
+  //     modalImg.src = this.src;
+  //     modalImg.classList.add("zoom-in"); // Apply zoom-in effect
+  //   });
+  // });
 
-    if (zoomed[0] !== this) {
-      // Zoom the clicked image
-      zoomed = $(this).addClass("zoomed");
-    } else {
-      // If the clicked image is already zoomed, remove the zoom
-      zoomed = null;
-      $(this).removeClass("zoomed");
-    }
+  // // Close the modal and reset zoom
+  // closeBtn.onclick = function () {
+  //   modal.style.display = "none";
+  //   modalImg.classList.remove("zoom-in"); // Remove zoom-in effect
+  //   modalImg.classList.add("zoom-out"); // Apply zoom-out effect
+  //   setTimeout(() => {
+  //     modalImg.classList.remove("zoom-out"); // Remove zoom-out effect after transition
+  //   }, 300);
+  // };
 
-    $(document).on("click", function () {
-      if (zoomed) {
-        zoomed.removeClass("zoomed");
-        zoomed = null;
-      }
-    });
-  });
+  // // Close the modal when clicking outside of the image
+  // window.onclick = function (event) {
+  //   if (event.target === modal) {
+  //     modal.style.display = "none";
+  //     modalImg.classList.remove("zoom-in"); // Remove zoom-in effect
+  //     modalImg.classList.add("zoom-out"); // Apply zoom-out effect
+  //     setTimeout(() => {
+  //       modalImg.classList.remove("zoom-out"); // Remove zoom-out effect after transition
+  //     }, 300);
+  //   }
+  // };
 
   // Close zoom if clicking outside the zoomed image
   $(document).on("click", function () {
