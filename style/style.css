@@ -574,7 +574,7 @@ input:focus,
 }
 
 .form__text {
-  border: 2px solid #616161;
+  border: 1px solid #616161;
   background-color: transparent;
   color: #616161;
   font-size: 15px;
@@ -913,15 +913,17 @@ textarea::-webkit-scrollbar {
   .form__email,
   .form__tel {
     transform: translateX(5px);
+    width: 200px;
   }
   .form__company,
   .form__name {
     transform: translate(20px);
+    width: 200px;
   }
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
-    width: 345px;
+    width: 325px;
     transform: translateX(-15px);
   }
 }
@@ -1159,7 +1161,7 @@ textarea::-webkit-scrollbar {
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
-    width: 290px;
+    width: 320px;
     transform: translateX(-15px);
   }
   .footer__bottom {
