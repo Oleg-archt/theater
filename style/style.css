@@ -1555,6 +1555,7 @@ textarea::-webkit-scrollbar {
   .form__tel {
     /* transform: translateX(30px); */
     transform: translateX(40px);
+    width: 200px;
 
     padding-right: 20px;
   }
@@ -1562,6 +1563,7 @@ textarea::-webkit-scrollbar {
   .form__name {
     /* transform: translate(-1px); */
     transform: translate(10px);
+    width: 200px;
 
     padding-right: 20px;
   }
