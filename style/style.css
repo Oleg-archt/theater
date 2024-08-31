@@ -40,8 +40,7 @@ input:focus,
 }
 
 .header {
-  /* height: 640px; */
-  height: 90vh;
+  height: 640px;
   position: relative;
 }
 
@@ -50,7 +49,7 @@ input:focus,
 }
 
 .header__inner {
-  height: 90vh;
+  height: 640px;
   width: 100%;
   background-image: url(../img/header-bg.jpg);
   background-size: 100% 100%;
@@ -87,8 +86,7 @@ input:focus,
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 120px; */
-  margin-top: 105px;
+  margin-top: 120px;
 }
 
 .header__info {
@@ -416,7 +414,7 @@ input:focus,
   place-items: center;
   width: 100%;
   height: auto;
-  max-width: 1100px;
+  /* max-width: 1100px; */
 }
 
 .sponsor__img {
@@ -530,7 +528,6 @@ input:focus,
   display: flex;
   flex-direction: row;
   gap: 0;
-  flex-basis: 5px;
   position: relative;
   /* display: grid;
   grid-template-columns: repeat(3, 1fr); */
@@ -614,11 +611,12 @@ textarea::-webkit-scrollbar {
 .footer__form-btn {
   background-color: #d1a954;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   border: none;
   height: 50px;
-  /* padding: 0 50px; */
-  padding: 0 40px;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .footer__bottom {
@@ -916,12 +914,12 @@ textarea::-webkit-scrollbar {
   .form__email,
   .form__tel {
     transform: translateX(5px);
-    width: 200px;
+    /* width: 200px; */
   }
   .form__company,
   .form__name {
     transform: translate(20px);
-    width: 200px;
+    /* width: 200px; */
   }
   .form__text {
     padding: 10px 20px 10px 15px;
@@ -1111,9 +1109,9 @@ textarea::-webkit-scrollbar {
     padding-left: 10%;
   }
 
-  .footer .container {
+  /* .footer .container {
     margin: 0 40px;
-  }
+  } */
 
   .footer__bottom {
     /* transform: translateX(-50px); */
@@ -1121,10 +1119,10 @@ textarea::-webkit-scrollbar {
   }
 
   .footer__alert {
-    gap: 0 95px;
+    gap: 0 85px;
   }
   .footer__form-text {
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   /* .adress,
@@ -1139,33 +1137,35 @@ textarea::-webkit-scrollbar {
   } */
 
   .adress {
-    right: -280px;
+    right: -260px;
   }
   .phone-1 {
-    left: -315px;
+    left: -290px;
   }
 
   .phone {
-    left: -385px;
+    left: -355px;
   }
 
   .footer__contacts-email {
-    right: -310px;
+    right: -290px;
   }
 
   .form__email,
   .form__tel {
-    transform: translateX(5px);
+    /* transform: translateX(5px); */
+    transform: translateX(0);
   }
   .form__company,
   .form__name {
-    transform: translate(20px);
+    /* transform: translate(20px); */
+    transform: translate(30px);
   }
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
-    width: 320px;
-    transform: translateX(-15px);
+    /* transform: translateX(-15px); */
+    transform: translateX(-25px);
   }
   .footer__bottom {
     margin-top: 40px;
@@ -1478,10 +1478,10 @@ textarea::-webkit-scrollbar {
     padding-right: 35%;
   }
 
-  .footer .container {
-    /* margin: 0 20px; */
+  /* .footer .container {
+    margin: 0 20px;
     margin: 0 40px;
-  }
+  } */
 
   .footer__form {
     display: flex;
@@ -1496,9 +1496,7 @@ textarea::-webkit-scrollbar {
   }
 
   .footer__bottom {
-    /* transform: translateX(-50px); */
-    /* margin-top: 60px; */
-    margin-top: 350px;
+    margin-top: 220px;
     margin-bottom: 20px;
   }
 
@@ -1529,22 +1527,22 @@ textarea::-webkit-scrollbar {
   }
 
   .adress {
-    right: 45px;
-    top: 410px;
+    right: -220px;
+    top: 210px;
   }
   .phone-1 {
-    left: -420px;
-    top: 360px;
+    left: -250px;
+    top: 160px;
   }
 
   .phone {
-    left: -440px;
-    bottom: -350px;
+    left: -270px;
+    top: 205px;
   }
 
   .footer__contacts-email {
-    top: 365px;
-    left: -115px;
+    top: 165px;
+    right: -250px;
   }
 
   .footer__contacts {
@@ -1560,24 +1558,23 @@ textarea::-webkit-scrollbar {
   .form__tel {
     /* transform: translateX(30px); */
     transform: translateX(40px);
-    width: 200px;
-
+    width: 245px;
     padding-right: 20px;
   }
   .form__company,
   .form__name {
     /* transform: translate(-1px); */
-    transform: translate(10px);
-    width: 200px;
-
+    transform: translateX(0);
+    width: 245px;
     padding-right: 20px;
   }
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
-    width: 430px;
+    width: 530px;
+    /* width: 430px; */
     /* transform: translateY(20px); */
-    transform: translateY(20px) translateX(10px);
+    transform: translateY(20px) translateX(0);
   }
 }
 
