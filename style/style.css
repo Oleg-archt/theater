@@ -206,9 +206,7 @@ input:focus,
 }
 
 .container {
-  /* max-width: 1920px; */
   max-width: 1200px;
-  /* margin: 0 250px; */
   margin: 0 auto;
 }
 
@@ -843,7 +841,7 @@ textarea::-webkit-scrollbar {
   }
 
   .sponsor__slider {
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   .loop__btn {
@@ -851,7 +849,7 @@ textarea::-webkit-scrollbar {
     top: 230px;
   }
   .footer .container {
-    margin: 0 110px;
+    margin: 0 120px;
   }
   .footer__inner-content {
     flex-wrap: wrap;
@@ -891,14 +889,14 @@ textarea::-webkit-scrollbar {
   }
 
   .footer__bottom {
-    /* transform: translateX(-50px); */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 60px;
   }
   .footer__alert {
-    gap: 0 145px;
+    gap: 0 195px;
   }
   .footer__form-text {
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .adress,
@@ -914,18 +912,16 @@ textarea::-webkit-scrollbar {
   .form__email,
   .form__tel {
     transform: translateX(5px);
-    /* width: 200px; */
   }
   .form__company,
   .form__name {
-    transform: translate(20px);
-    /* width: 200px; */
+    transform: translate(40px);
   }
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
-    width: 325px;
-    transform: translateX(-15px);
+    width: 430px;
+    transform: translateX(-30px);
   }
 }
 
@@ -1097,21 +1093,15 @@ textarea::-webkit-scrollbar {
     width: 750px;
     margin: 0 auto;
     transform: translateX(-110px);
-    /* margin-left: -10%; */
-    /* margin: 0 auto; */
-    /* margin-right: -10%; */
   }
 
-  /* .sponsor__slider-items {
-    margin: 0 30px;
-  } */
   .sponsor__slider-list {
     padding-left: 10%;
   }
 
-  /* .footer .container {
-    margin: 0 40px;
-  } */
+  .footer .container {
+    margin: 0 50px;
+  }
 
   .footer__bottom {
     /* transform: translateX(-50px); */
@@ -1119,10 +1109,10 @@ textarea::-webkit-scrollbar {
   }
 
   .footer__alert {
-    gap: 0 85px;
+    gap: 0 100px;
   }
   .footer__form-text {
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   /* .adress,
@@ -1137,18 +1127,18 @@ textarea::-webkit-scrollbar {
   } */
 
   .adress {
-    right: -260px;
+    right: -270px;
   }
   .phone-1 {
-    left: -290px;
+    left: -300px;
   }
 
   .phone {
-    left: -355px;
+    left: -365px;
   }
 
   .footer__contacts-email {
-    right: -290px;
+    right: -300px;
   }
 
   .form__email,
@@ -1164,6 +1154,7 @@ textarea::-webkit-scrollbar {
   .form__text {
     padding: 10px 20px 10px 15px;
     margin-bottom: 55px;
+    width: 325px;
     /* transform: translateX(-15px); */
     transform: translateX(-25px);
   }
