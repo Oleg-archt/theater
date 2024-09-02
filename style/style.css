@@ -66,8 +66,8 @@ input:focus,
 }
 
 .nav__list-items {
-  padding: 40px 40px 51px 40px;
-  font-size: 15px;
+  padding: 40px 40px 51px 30px;
+  font-size: 17px;
   font-weight: 600;
 }
 
@@ -78,7 +78,7 @@ input:focus,
 
 .nav-link {
   /* margin-left: 138px; */
-  margin-left: 118px;
+  margin-left: 100px;
   border-bottom: 2px solid #d1a954;
   padding-bottom: 5px;
   display: block;
@@ -92,20 +92,23 @@ input:focus,
 }
 
 .header__info {
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .header__main-title {
   color: #fff;
-  font-size: 32px;
+  font-size: 57px;
   padding-bottom: 30px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  text-transform: uppercase;
 }
 
 .header__main-text {
   color: #ffffff;
-  width: 500px;
+  width: 480px;
   padding-bottom: 30px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -155,15 +158,16 @@ input:focus,
   /* right: 49px;
   bottom: -30px; */
 }
+.btn {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
 .btn-1 {
-  padding: 10px 30px;
+  padding: 10px 40px;
   background-color: #d1a954;
   color: #fff;
   font-size: 17px;
-  border: none;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    1px 1px 0 black;
+  border: 1px solid black;
 }
 
 .slider-img {
@@ -849,6 +853,20 @@ textarea::-webkit-scrollbar {
   .loop__btn {
     left: 210px;
     top: 230px;
+  }
+
+  .slider__slider img {
+    cursor: default;
+    transform: none;
+    transition: none;
+  }
+
+  .slider__slider img.zoomed {
+    transform: none;
+    z-index: auto;
+    position: relative;
+    left: auto;
+    top: auto;
   }
   .footer .container {
     margin: 0 120px;
