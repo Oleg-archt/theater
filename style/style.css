@@ -40,7 +40,8 @@ input:focus,
 }
 
 .header {
-  height: 640px;
+  height: 1045px;
+  /* height: 640px; */
   position: relative;
 }
 
@@ -49,7 +50,7 @@ input:focus,
 }
 
 .header__inner {
-  height: 640px;
+  height: 1045px;
   width: 100%;
   background-image: url(../img/header-bg.jpg);
   background-size: 100% 100%;
@@ -65,7 +66,8 @@ input:focus,
 }
 
 .nav__list-items {
-  padding: 51px 40px;
+  /* padding: 51px 40px; */
+  padding: 51px 40px 51px 40px;
   font-size: 15px;
   font-weight: 600;
 }
@@ -86,7 +88,7 @@ input:focus,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .header__info {
@@ -123,7 +125,7 @@ input:focus,
 
 .prev-btn {
   position: absolute;
-  bottom: -30px;
+  bottom: -50px;
   left: 55px;
   color: #c4c4c4;
 }
@@ -141,7 +143,7 @@ input:focus,
 .next-btn {
   position: absolute;
   right: 89px;
-  bottom: -30px;
+  bottom: -50px;
   color: #fff;
 }
 
@@ -172,21 +174,21 @@ input:focus,
   position: absolute;
   top: 0;
   display: block;
-  height: 650px;
+  height: 1045px;
   width: 130px;
   background-color: #333333bf;
 }
 
 .header__social-list {
   position: absolute;
-  bottom: -155px;
+  bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .header__social-title {
   position: absolute;
-  bottom: 280px;
+  bottom: 450px;
   left: -85px;
   width: 300px;
   color: #c4c4c4;
@@ -196,7 +198,7 @@ input:focus,
 
 .line {
   position: absolute;
-  bottom: 30px;
+  bottom: 200px;
   left: 63px;
   color: #c4c4c4;
 }
