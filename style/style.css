@@ -77,7 +77,8 @@ input:focus,
 }
 
 .nav-link {
-  margin-left: 138px;
+  /* margin-left: 138px; */
+  margin-left: 118px;
   border-bottom: 2px solid #d1a954;
   padding-bottom: 5px;
   display: block;
@@ -688,7 +689,7 @@ textarea::-webkit-scrollbar {
   top: 0;
   left: -300px; /* Initially hide the sidebar */
   width: 300px;
-  height: 640px;
+  height: 850px;
   background-color: #333333;
   color: #fff;
   overflow-x: hidden;
