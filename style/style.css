@@ -790,6 +790,9 @@ textarea::-webkit-scrollbar {
   .header__inner {
     background-size: cover;
   }
+  .header__main-inner {
+    margin-top: 190px;
+  }
   .nav__list-items {
     font-size: 20px;
     padding: 20px 20px;
@@ -973,6 +976,9 @@ textarea::-webkit-scrollbar {
 }
 
 @media (max-width: 768px) {
+  .header__main-inner {
+    margin-top: 180px;
+  }
   /* .menu__nav, */
   .menu__social {
     display: none;
@@ -1014,12 +1020,12 @@ textarea::-webkit-scrollbar {
   }
 
   .nav-link {
-    font-size: 19px;
+    font-size: 17px;
     letter-spacing: 1px;
     position: relative;
     right: -500px;
     top: -130px;
-    width: 145px;
+    width: 130px;
   }
 
   .header__social-inner {
@@ -1403,7 +1409,7 @@ textarea::-webkit-scrollbar {
 
 @media (max-width: 572px) {
   .header__main-title {
-    font-size: 70px;
+    font-size: 60px;
   }
   .header__main-text {
     width: 450px;
