@@ -180,14 +180,14 @@ input:focus,
 
 .header__social-list {
   position: absolute;
-  bottom: 55px;
+  bottom: 65px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .header__social-title {
   position: absolute;
-  bottom: 490px;
+  bottom: 500px;
   left: -85px;
   width: 300px;
   color: #c4c4c4;
@@ -197,7 +197,7 @@ input:focus,
 
 .line {
   position: absolute;
-  bottom: 240px;
+  bottom: 250px;
   left: 63px;
   color: #c4c4c4;
 }
